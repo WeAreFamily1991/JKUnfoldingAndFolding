@@ -1,0 +1,35 @@
+//
+//  JKUnfoldingAndFolding.pch
+//  JKUnfoldingAndFolding
+//
+//  Created by 王冲 on 2017/10/10.
+//  Copyright © 2017年 希爱欧科技有限公司. All rights reserved.
+//
+
+#ifndef JKUnfoldingAndFolding_pch
+#define JKUnfoldingAndFolding_pch
+
+#import <JSONModel/JSONModel.h>
+#import "JKwideHighSize.h"
+#import "UIView+JKUiviewExtension.h"
+#import <SDWebImage/UIButton+WebCache.h>
+#import "UIImageView+WebCache.h"
+#import "CIOTip.h"
+//屏幕尺寸
+#define JKWIDTH  [UIScreen mainScreen].bounds.size.width
+#define JKHEIGHT  [UIScreen mainScreen].bounds.size.height
+
+#define zhuBlueCOLOR [UIColor colorWithRed:(0)/255.0 green:(150)/255.0 blue:(255)/255.0 alpha:1]
+#define backGayCOLOR [UIColor colorWithRed:(232)/255.0 green:(232)/255.0 blue:(232)/255.0 alpha:1]
+#define TitleBlackCOLOR [UIColor colorWithRed:(51)/255.0 green:(51)/255.0 blue:(51)/255.0 alpha:1]
+#define TitleTwoBlackCOLOR [UIColor colorWithRed:(140)/255.0 green:(140)/255.0 blue:(140)/255.0 alpha:1]
+#define backgrCOlor [UIColor colorWithRed:(245)/255.0 green:(245)/255.0 blue:(245)/255.0 alpha:1]
+
+//开发模式
+#ifdef DEBUG
+#define DDLogDebug(...) NSLog(__VA_ARGS__)
+#else
+#define DDLogDebug(...) //发布模式
+#endif
+
+#endif /* JKUnfoldingAndFolding_pch */

@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04F1EFBE94B8B0D3EB5B7D2 /* libPods-JKUnfoldingAndFolding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABCE44DEAA81FBDA76676CC /* libPods-JKUnfoldingAndFolding.a */; };
+		E296C2281F8C6AC800DDAC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C2271F8C6AC800DDAC45 /* main.m */; };
+		E296C22B1F8C6AC800DDAC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C22A1F8C6AC800DDAC45 /* AppDelegate.m */; };
+		E296C22E1F8C6AC800DDAC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C22D1F8C6AC800DDAC45 /* ViewController.m */; };
+		E296C2311F8C6AC800DDAC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E296C22F1F8C6AC800DDAC45 /* Main.storyboard */; };
+		E296C2331F8C6AC800DDAC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E296C2321F8C6AC800DDAC45 /* Assets.xcassets */; };
+		E296C2361F8C6AC800DDAC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E296C2341F8C6AC800DDAC45 /* LaunchScreen.storyboard */; };
+		E296C2411F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C2401F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.m */; };
+		E296C24C1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C24B1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.m */; };
+		E296C25C1F8C74C100DDAC45 /* JKPeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C25B1F8C74C100DDAC45 /* JKPeopleModel.m */; };
+		E296C25F1F8C75EF00DDAC45 /* PeopleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C25E1F8C75EF00DDAC45 /* PeopleCell.m */; };
+		E296C2621F8C771400DDAC45 /* PeopleHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C2611F8C771400DDAC45 /* PeopleHeaderFooterView.m */; };
+		E296C2661F8C77A800DDAC45 /* JKwideHighSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C2651F8C77A800DDAC45 /* JKwideHighSize.m */; };
+		E296C26A1F8C77E700DDAC45 /* UIView+JKUiviewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C2691F8C77E700DDAC45 /* UIView+JKUiviewExtension.m */; };
+		E296C26E1F8C7AAB00DDAC45 /* CIOTip.m in Sources */ = {isa = PBXBuildFile; fileRef = E296C26D1F8C7AAB00DDAC45 /* CIOTip.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E296C23D1F8C6AC800DDAC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E296C21B1F8C6AC800DDAC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E296C2221F8C6AC800DDAC45;
+			remoteInfo = JKUnfoldingAndFolding;
+		};
+		E296C2481F8C6AC800DDAC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E296C21B1F8C6AC800DDAC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E296C2221F8C6AC800DDAC45;
+			remoteInfo = JKUnfoldingAndFolding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BDC0161EE1CB458468D27FF /* Pods-JKUnfoldingAndFolding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKUnfoldingAndFolding.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKUnfoldingAndFolding/Pods-JKUnfoldingAndFolding.release.xcconfig"; sourceTree = "<group>"; };
+		AABCE44DEAA81FBDA76676CC /* libPods-JKUnfoldingAndFolding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKUnfoldingAndFolding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E296C2231F8C6AC800DDAC45 /* JKUnfoldingAndFolding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKUnfoldingAndFolding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E296C2271F8C6AC800DDAC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E296C2291F8C6AC800DDAC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E296C22A1F8C6AC800DDAC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E296C22C1F8C6AC800DDAC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E296C22D1F8C6AC800DDAC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E296C2301F8C6AC800DDAC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E296C2321F8C6AC800DDAC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E296C2351F8C6AC800DDAC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E296C2371F8C6AC800DDAC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E296C23C1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKUnfoldingAndFoldingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E296C2401F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKUnfoldingAndFoldingTests.m; sourceTree = "<group>"; };
+		E296C2421F8C6AC800DDAC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E296C2471F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKUnfoldingAndFoldingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E296C24B1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKUnfoldingAndFoldingUITests.m; sourceTree = "<group>"; };
+		E296C24D1F8C6AC800DDAC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E296C2591F8C73F900DDAC45 /* JKUnfoldingAndFolding.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKUnfoldingAndFolding.pch; sourceTree = "<group>"; };
+		E296C25A1F8C74C100DDAC45 /* JKPeopleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPeopleModel.h; sourceTree = "<group>"; };
+		E296C25B1F8C74C100DDAC45 /* JKPeopleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPeopleModel.m; sourceTree = "<group>"; };
+		E296C25D1F8C75EF00DDAC45 /* PeopleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleCell.h; sourceTree = "<group>"; };
+		E296C25E1F8C75EF00DDAC45 /* PeopleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleCell.m; sourceTree = "<group>"; };
+		E296C2601F8C771400DDAC45 /* PeopleHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleHeaderFooterView.h; sourceTree = "<group>"; };
+		E296C2611F8C771400DDAC45 /* PeopleHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleHeaderFooterView.m; sourceTree = "<group>"; };
+		E296C2641F8C77A800DDAC45 /* JKwideHighSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKwideHighSize.h; sourceTree = "<group>"; };
+		E296C2651F8C77A800DDAC45 /* JKwideHighSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKwideHighSize.m; sourceTree = "<group>"; };
+		E296C2681F8C77E700DDAC45 /* UIView+JKUiviewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKUiviewExtension.h"; sourceTree = "<group>"; };
+		E296C2691F8C77E700DDAC45 /* UIView+JKUiviewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKUiviewExtension.m"; sourceTree = "<group>"; };
+		E296C26C1F8C7AAB00DDAC45 /* CIOTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIOTip.h; sourceTree = "<group>"; };
+		E296C26D1F8C7AAB00DDAC45 /* CIOTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIOTip.m; sourceTree = "<group>"; };
+		ED86A3F9575CE5CB14AC961D /* Pods-JKUnfoldingAndFolding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKUnfoldingAndFolding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKUnfoldingAndFolding/Pods-JKUnfoldingAndFolding.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E296C2201F8C6AC800DDAC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04F1EFBE94B8B0D3EB5B7D2 /* libPods-JKUnfoldingAndFolding.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296C2391F8C6AC800DDAC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296C2441F8C6AC800DDAC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0254904390E2C2C37B620B9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED86A3F9575CE5CB14AC961D /* Pods-JKUnfoldingAndFolding.debug.xcconfig */,
+				3BDC0161EE1CB458468D27FF /* Pods-JKUnfoldingAndFolding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0920555AA8B5D111D9135EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABCE44DEAA81FBDA76676CC /* libPods-JKUnfoldingAndFolding.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E296C21A1F8C6AC800DDAC45 = {
+			isa = PBXGroup;
+			children = (
+				E296C2251F8C6AC800DDAC45 /* JKUnfoldingAndFolding */,
+				E296C23F1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests */,
+				E296C24A1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests */,
+				E296C2241F8C6AC800DDAC45 /* Products */,
+				0254904390E2C2C37B620B9A /* Pods */,
+				0920555AA8B5D111D9135EE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E296C2241F8C6AC800DDAC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E296C2231F8C6AC800DDAC45 /* JKUnfoldingAndFolding.app */,
+				E296C23C1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.xctest */,
+				E296C2471F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E296C2251F8C6AC800DDAC45 /* JKUnfoldingAndFolding */ = {
+			isa = PBXGroup;
+			children = (
+				E296C2291F8C6AC800DDAC45 /* AppDelegate.h */,
+				E296C22A1F8C6AC800DDAC45 /* AppDelegate.m */,
+				E296C22C1F8C6AC800DDAC45 /* ViewController.h */,
+				E296C22D1F8C6AC800DDAC45 /* ViewController.m */,
+				E296C25A1F8C74C100DDAC45 /* JKPeopleModel.h */,
+				E296C25B1F8C74C100DDAC45 /* JKPeopleModel.m */,
+				E296C25D1F8C75EF00DDAC45 /* PeopleCell.h */,
+				E296C25E1F8C75EF00DDAC45 /* PeopleCell.m */,
+				E296C2601F8C771400DDAC45 /* PeopleHeaderFooterView.h */,
+				E296C2611F8C771400DDAC45 /* PeopleHeaderFooterView.m */,
+				E296C26B1F8C7AAB00DDAC45 /*  CIOTip  */,
+				E296C2671F8C77E700DDAC45 /* JKUiviewExtension */,
+				E296C2631F8C77A800DDAC45 /* JKwideHighSize */,
+				E296C22F1F8C6AC800DDAC45 /* Main.storyboard */,
+				E296C2321F8C6AC800DDAC45 /* Assets.xcassets */,
+				E296C2341F8C6AC800DDAC45 /* LaunchScreen.storyboard */,
+				E296C2371F8C6AC800DDAC45 /* Info.plist */,
+				E296C2261F8C6AC800DDAC45 /* Supporting Files */,
+			);
+			path = JKUnfoldingAndFolding;
+			sourceTree = "<group>";
+		};
+		E296C2261F8C6AC800DDAC45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E296C2271F8C6AC800DDAC45 /* main.m */,
+				E296C2591F8C73F900DDAC45 /* JKUnfoldingAndFolding.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E296C23F1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E296C2401F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.m */,
+				E296C2421F8C6AC800DDAC45 /* Info.plist */,
+			);
+			path = JKUnfoldingAndFoldingTests;
+			sourceTree = "<group>";
+		};
+		E296C24A1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E296C24B1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.m */,
+				E296C24D1F8C6AC800DDAC45 /* Info.plist */,
+			);
+			path = JKUnfoldingAndFoldingUITests;
+			sourceTree = "<group>";
+		};
+		E296C2631F8C77A800DDAC45 /* JKwideHighSize */ = {
+			isa = PBXGroup;
+			children = (
+				E296C2641F8C77A800DDAC45 /* JKwideHighSize.h */,
+				E296C2651F8C77A800DDAC45 /* JKwideHighSize.m */,
+			);
+			path = JKwideHighSize;
+			sourceTree = "<group>";
+		};
+		E296C2671F8C77E700DDAC45 /* JKUiviewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E296C2681F8C77E700DDAC45 /* UIView+JKUiviewExtension.h */,
+				E296C2691F8C77E700DDAC45 /* UIView+JKUiviewExtension.m */,
+			);
+			path = JKUiviewExtension;
+			sourceTree = "<group>";
+		};
+		E296C26B1F8C7AAB00DDAC45 /*  CIOTip  */ = {
+			isa = PBXGroup;
+			children = (
+				E296C26C1F8C7AAB00DDAC45 /* CIOTip.h */,
+				E296C26D1F8C7AAB00DDAC45 /* CIOTip.m */,
+			);
+			path = " CIOTip ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E296C2221F8C6AC800DDAC45 /* JKUnfoldingAndFolding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E296C2501F8C6AC800DDAC45 /* Build configuration list for PBXNativeTarget "JKUnfoldingAndFolding" */;
+			buildPhases = (
+				9476D2D28ED2556873834A16 /* [CP] Check Pods Manifest.lock */,
+				E296C21F1F8C6AC800DDAC45 /* Sources */,
+				E296C2201F8C6AC800DDAC45 /* Frameworks */,
+				E296C2211F8C6AC800DDAC45 /* Resources */,
+				59871F740C8702BCF0C6C7F3 /* [CP] Embed Pods Frameworks */,
+				21963251C9BC907E49E8C76A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKUnfoldingAndFolding;
+			productName = JKUnfoldingAndFolding;
+			productReference = E296C2231F8C6AC800DDAC45 /* JKUnfoldingAndFolding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E296C23B1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E296C2531F8C6AC800DDAC45 /* Build configuration list for PBXNativeTarget "JKUnfoldingAndFoldingTests" */;
+			buildPhases = (
+				E296C2381F8C6AC800DDAC45 /* Sources */,
+				E296C2391F8C6AC800DDAC45 /* Frameworks */,
+				E296C23A1F8C6AC800DDAC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E296C23E1F8C6AC800DDAC45 /* PBXTargetDependency */,
+			);
+			name = JKUnfoldingAndFoldingTests;
+			productName = JKUnfoldingAndFoldingTests;
+			productReference = E296C23C1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E296C2461F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E296C2561F8C6AC800DDAC45 /* Build configuration list for PBXNativeTarget "JKUnfoldingAndFoldingUITests" */;
+			buildPhases = (
+				E296C2431F8C6AC800DDAC45 /* Sources */,
+				E296C2441F8C6AC800DDAC45 /* Frameworks */,
+				E296C2451F8C6AC800DDAC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E296C2491F8C6AC800DDAC45 /* PBXTargetDependency */,
+			);
+			name = JKUnfoldingAndFoldingUITests;
+			productName = JKUnfoldingAndFoldingUITests;
+			productReference = E296C2471F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E296C21B1F8C6AC800DDAC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "希爱欧科技有限公司";
+				TargetAttributes = {
+					E296C2221F8C6AC800DDAC45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 75LW4CAG6Y;
+						ProvisioningStyle = Automatic;
+					};
+					E296C23B1F8C6AC800DDAC45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 75LW4CAG6Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E296C2221F8C6AC800DDAC45;
+					};
+					E296C2461F8C6AC800DDAC45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 75LW4CAG6Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E296C2221F8C6AC800DDAC45;
+					};
+				};
+			};
+			buildConfigurationList = E296C21E1F8C6AC800DDAC45 /* Build configuration list for PBXProject "JKUnfoldingAndFolding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E296C21A1F8C6AC800DDAC45;
+			productRefGroup = E296C2241F8C6AC800DDAC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E296C2221F8C6AC800DDAC45 /* JKUnfoldingAndFolding */,
+				E296C23B1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests */,
+				E296C2461F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E296C2211F8C6AC800DDAC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296C2361F8C6AC800DDAC45 /* LaunchScreen.storyboard in Resources */,
+				E296C2331F8C6AC800DDAC45 /* Assets.xcassets in Resources */,
+				E296C2311F8C6AC800DDAC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296C23A1F8C6AC800DDAC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296C2451F8C6AC800DDAC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21963251C9BC907E49E8C76A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKUnfoldingAndFolding/Pods-JKUnfoldingAndFolding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59871F740C8702BCF0C6C7F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKUnfoldingAndFolding/Pods-JKUnfoldingAndFolding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9476D2D28ED2556873834A16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E296C21F1F8C6AC800DDAC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296C22E1F8C6AC800DDAC45 /* ViewController.m in Sources */,
+				E296C25C1F8C74C100DDAC45 /* JKPeopleModel.m in Sources */,
+				E296C2661F8C77A800DDAC45 /* JKwideHighSize.m in Sources */,
+				E296C22B1F8C6AC800DDAC45 /* AppDelegate.m in Sources */,
+				E296C26A1F8C77E700DDAC45 /* UIView+JKUiviewExtension.m in Sources */,
+				E296C2621F8C771400DDAC45 /* PeopleHeaderFooterView.m in Sources */,
+				E296C2281F8C6AC800DDAC45 /* main.m in Sources */,
+				E296C26E1F8C7AAB00DDAC45 /* CIOTip.m in Sources */,
+				E296C25F1F8C75EF00DDAC45 /* PeopleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296C2381F8C6AC800DDAC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296C2411F8C6AC800DDAC45 /* JKUnfoldingAndFoldingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296C2431F8C6AC800DDAC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296C24C1F8C6AC800DDAC45 /* JKUnfoldingAndFoldingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E296C23E1F8C6AC800DDAC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E296C2221F8C6AC800DDAC45 /* JKUnfoldingAndFolding */;
+			targetProxy = E296C23D1F8C6AC800DDAC45 /* PBXContainerItemProxy */;
+		};
+		E296C2491F8C6AC800DDAC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E296C2221F8C6AC800DDAC45 /* JKUnfoldingAndFolding */;
+			targetProxy = E296C2481F8C6AC800DDAC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E296C22F1F8C6AC800DDAC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E296C2301F8C6AC800DDAC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E296C2341F8C6AC800DDAC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E296C2351F8C6AC800DDAC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E296C24E1F8C6AC800DDAC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E296C24F1F8C6AC800DDAC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E296C2511F8C6AC800DDAC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED86A3F9575CE5CB14AC961D /* Pods-JKUnfoldingAndFolding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				GCC_PREFIX_HEADER = JKUnfoldingAndFolding/JKUnfoldingAndFolding.pch;
+				INFOPLIST_FILE = JKUnfoldingAndFolding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKUnfoldingAndFolding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E296C2521F8C6AC800DDAC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDC0161EE1CB458468D27FF /* Pods-JKUnfoldingAndFolding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				GCC_PREFIX_HEADER = JKUnfoldingAndFolding/JKUnfoldingAndFolding.pch;
+				INFOPLIST_FILE = JKUnfoldingAndFolding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKUnfoldingAndFolding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E296C2541F8C6AC800DDAC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKUnfoldingAndFoldingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKUnfoldingAndFoldingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKUnfoldingAndFolding.app/JKUnfoldingAndFolding";
+			};
+			name = Debug;
+		};
+		E296C2551F8C6AC800DDAC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKUnfoldingAndFoldingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKUnfoldingAndFoldingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKUnfoldingAndFolding.app/JKUnfoldingAndFolding";
+			};
+			name = Release;
+		};
+		E296C2571F8C6AC800DDAC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKUnfoldingAndFoldingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKUnfoldingAndFoldingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKUnfoldingAndFolding;
+			};
+			name = Debug;
+		};
+		E296C2581F8C6AC800DDAC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKUnfoldingAndFoldingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKUnfoldingAndFoldingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKUnfoldingAndFolding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E296C21E1F8C6AC800DDAC45 /* Build configuration list for PBXProject "JKUnfoldingAndFolding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E296C24E1F8C6AC800DDAC45 /* Debug */,
+				E296C24F1F8C6AC800DDAC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E296C2501F8C6AC800DDAC45 /* Build configuration list for PBXNativeTarget "JKUnfoldingAndFolding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E296C2511F8C6AC800DDAC45 /* Debug */,
+				E296C2521F8C6AC800DDAC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E296C2531F8C6AC800DDAC45 /* Build configuration list for PBXNativeTarget "JKUnfoldingAndFoldingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E296C2541F8C6AC800DDAC45 /* Debug */,
+				E296C2551F8C6AC800DDAC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E296C2561F8C6AC800DDAC45 /* Build configuration list for PBXNativeTarget "JKUnfoldingAndFoldingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E296C2571F8C6AC800DDAC45 /* Debug */,
+				E296C2581F8C6AC800DDAC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E296C21B1F8C6AC800DDAC45 /* Project object */;
+}
